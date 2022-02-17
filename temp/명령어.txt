@@ -1,0 +1,1 @@
+python track.py --source "http://192.168.0.57:8090/video" --yolo_model yolov5s.pt --img 640
