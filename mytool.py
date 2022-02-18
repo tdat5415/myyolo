@@ -189,3 +189,25 @@ def gen_data(NAME_TO_ID, num=10):
         make_text_label(label[:,0], label[:, 1:], SAVE_LABELS_DIR_PATH + "/" + f"{i:04d}.txt")
         
 #######################################################################
+import socket as sk
+
+def connection_for_server():
+    HOST = ''
+    PORT = 8888
+    server = sk.socket(sk.AF_INET, sk.SOCK_STREAM)
+    server.bind((HOST, PORT))
+    server.listen(1)
+    with_client, addr = server.accept()
+    print('Connected.')
+    print(addr)
+    return with_client
+
+def connection_for_client():
+    HOST = '127.0.0.1'
+    PORT = 8888
+    client = sk.socket(sk.AF_INET, sk.SOCK_STREAM)
+    client.connect((HOST, PORT))
+    print('Connected.')
+    return client
+        
+#######################################################################
