@@ -1,0 +1,42 @@
+{
+  "version": "4.6.0",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "obj",
+      "points": [
+        [
+          2.551724137931032,
+          2.7586206896551726
+        ],
+        [
+          243.9310344827586,
+          426.89655172413796
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "date",
+      "points": [
+        [
+          142.55172413793105,
+          385.51724137931035
+        ],
+        [
+          186.68965517241378,
+          401.3793103448276
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    }
+  ],
+  "imagePath": "..\\product_imgs\\product1.png",
+  "imageData": null,
+  "imageHeight": 434,
+  "imageWidth": 246
+}
