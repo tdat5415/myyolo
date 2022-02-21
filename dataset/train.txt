@@ -1,1 +1,3 @@
-
+c:\_MAIN\SPACE\myyolo\dataset/images\0004.jpg
+c:\_MAIN\SPACE\myyolo\dataset/images\0001.jpg
+c:\_MAIN\SPACE\myyolo\dataset/images\0000.jpg

@@ -198,7 +198,7 @@ def connection_for_server():
     server.bind((HOST, PORT))
     server.listen(1)
     with_client, addr = server.accept()
-    print('Connected.')
+    print('Server : Connected.')
     print(addr)
     return with_client
 
@@ -207,7 +207,7 @@ def connection_for_client():
     PORT = 8888
     client = sk.socket(sk.AF_INET, sk.SOCK_STREAM)
     client.connect((HOST, PORT))
-    print('Connected.')
+    print('Client : Connected.')
     return client
         
 #######################################################################
